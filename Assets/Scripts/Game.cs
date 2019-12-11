@@ -53,7 +53,7 @@ public class Game : MonoBehaviour {
             }
         } 
 	}
-    
+
     void CheckUserInput (){
 
         bool down = Input.GetKeyDown(KeyCode.DownArrow), up = Input.GetKeyDown(KeyCode.UpArrow), left = Input.GetKeyDown(KeyCode.LeftArrow), right = Input.GetKeyDown(KeyCode.RightArrow);
@@ -491,4 +491,4 @@ public class Game : MonoBehaviour {
 
         numberOfCoroutinesRunning--;
     }
-}
+}// End MonoBehavior
