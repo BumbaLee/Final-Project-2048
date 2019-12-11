@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Game : MonoBehaviour {
-
     public static int gridWidth = 4, gridHeight = 4;
     public static Transform[,] grid = new Transform[gridWidth, gridHeight];
     public static NotATile[,] previousGrid = new NotATile[gridWidth, gridHeight];
